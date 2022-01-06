@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hMain{
+    color: #55CDFC;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.pMain{
+    text-align: center;
+}
+
+.imgFundo{
+    margin-left: 33%;
+    border-radius: 10px;
+    width: 40em;
+    height: 20em;
+}
+
+.imgSobreNos{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.box-line{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    text-align: center;
+}
+
+
+.footer{
+    margin-top: 10px;
+    height: 80px;
+    background-color: #55CDFC;
+}
+
+.h1Footer{
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-size: 30px;
+}
+
+.pFooter{
+    text-align: center;
+    color: white;
+}

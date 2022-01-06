@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.h1Main{
+    font-size: 35px;
+    color: #55CDFC;
+    text-align: center;
+}
+
+.sectionContato{
+    font-size: 1em;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.botao{
+    border: 2px solid #F7A8B8;
+    background-color: #F7A8B8;
+    color: white;
+    padding: 15px;
+    width: 18.5%;
+    margin-left: 40%;
+}
+
+.input{
+    width: 30.6%;
+    border: 2px solid #55CDFC;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 10px;
+    height: 80px;
+    background-color: #55CDFC;
+}
+
+.h1Footer{
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-size: 30px;
+}
+
+.pFooter{
+    text-align: center;
+    color: white;
+}
