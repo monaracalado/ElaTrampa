@@ -8,36 +8,71 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <h1 class="h1Main">Entre em contato conosco</h1>
+    <header>
+        <nav class="nav-contato">
+            <div class="logo">
+                <h1>Ela<span>Trampa!</span></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="">Vagas</a>
+                    </li>
+                    <li>
+                        <a href="">Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user">
+                <p>Squad53</p>
+                <img src="img/user.jpeg" alt="Avatar">
+            </div>
+        </nav>
+    </header>
+    <main class="contato">
+        <h2 class="h2Main">Entre em contato conosco</h2>
         <section class="sectionContato">
             <form class="grupo">
                 <div class="campo">
                     <label for="nome">Qual seu nome?</label>
-                    <input class="input" type="text" name="nome" id="nome" required>
+                    <div>
+                        <input class="input" type="text" name="nome" id="nome" required>
+                    </div>
                 </div>
                 <div class="campo">
                     <label for="email">Qual seu e-mail?</label>
-                    <input class="input" type="email" id="email" required> 
+                    <div>
+                        <input class="input" type="email" id="email" required>
+                    </div>
                 </div>
                 <div class="campo">
                     <label for="cpf">Telefone?</label>
-                    <input class="input" type="tel" id="telefone" required> 
+                    <div>
+                        <input class="input" type="tel" id="telefone" required> 
+                    </div>
                 </div>
                 <div class="campo">
                     <label for="mensagem">Deixa aqui sua mensagem!</label>
-                    <textarea class="input" style="width: 26em;" name="mensagem" id="mensagem" cols="30" rows="6"></textarea>              
+                    <div>
+                        <textarea class="input" name="mensagem" id="mensagem" cols="30" rows="6" ></textarea> 
+                    </div>               
                 </div>
             </form>
         </section>
-        <div>
+        <div class="btn-contato">
             <button class="botao" type="submit">Enviar</button>
         </div>
     </main>
     <footer>
         <div class="footer">
-            <h1 class="h1Footer">ElaTrampa!</h1>
-            <p class="pFooter">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3 class="h3Footer">ElaTrampa!</h3>
+            <p class="pFooter">&copy; Copyright ElaTrampa! 2021 - Developed by <strong>Squad53</strong></p>
         </div>
     </footer>
 </body>
