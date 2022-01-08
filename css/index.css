@@ -39,6 +39,7 @@ body{
 .nav-contato ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-contato li{
@@ -73,19 +74,26 @@ body{
 }
 
 .imagemFundo{
-    background-image: url("https://cdn.discordapp.com/attachments/886767522152611910/928673807282106378/banner.jpeg");
-    height: 32vh;
+    background: linear-gradient(rgba(11, 11, 158, 0.2),rgba(11, 11, 158, 0.2)100%), url(https://cdn.discordapp.com/attachments/886767522152611910/928673807282106378/banner.jpeg);
+    height: 28rem;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 div.Banner{
-    padding-left: 50rem;
-    font-size: 2.0rem;
-    background: rgba(11, 11, 158, 0.2);
-    backdrop-filter: blur(0.2rem); 
+    backdrop-filter: blur(0.2rem);
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Banner > div{
+    width: 71%;
+}
+
+.tituloBanner, .pBanner, .botaoBanner{
     color: white;
-    height: 32vh;
 }
 
 .tituloBanner{
@@ -93,18 +101,16 @@ div.Banner{
 }
 
 .pBanner{
-    padding-top: 12.0rem;
-    padding-bottom: 1.0rem;
+    margin-top: 6rem;
+    margin-bottom: 2.0rem;;
 }
 
 .botaoBanner{
     border: 2px solid #F7A8B8;
     background-color: #F7A8B8;
-    color: white;
     padding: 0.7rem 1.4rem;
     border-radius: 0.6rem;
-    cursor: pointer; 
-    z-index: auto;
+    cursor: pointer;
 }
 
 .botaoBanner:hover{
@@ -125,15 +131,20 @@ div.Banner{
 .boxLine{
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
+    margin: 0 4rem;
 }
 
-.Vagas{
+.Vagas{ 
     text-align: center;
     border: 3px solid #55CDFC;
     padding: 3.5rem;
-    width: 12%;
     margin: 2.0rem;
+    transition: all 0.3s ease-in;
+}
+
+.Vagas:hover{
+    transform: scale(1.03);
 }
 
 .vagaDisponivel{
@@ -168,6 +179,7 @@ div.Banner{
 .busca{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .buscaEncontrada{
