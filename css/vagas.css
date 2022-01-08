@@ -39,6 +39,7 @@ body{
 .nav-contato ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-contato li{
@@ -72,6 +73,7 @@ body{
     flex: 1 0 auto;
 }
 
+
 .vagas{
     color: #55CDFC;
     text-align: center;
@@ -81,7 +83,7 @@ body{
 
 .caixa{
     border: 0.3rem solid #55CDFC;
-    margin: 1.0rem 50.0rem;
+    margin: 1.0rem 12%;
     padding: 1.5rem;
 }
 
