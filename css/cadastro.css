@@ -39,6 +39,7 @@ body{
 .nav-contato ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-contato li{
@@ -88,29 +89,24 @@ body{
 }
 
 .campo{
-    display: grid;
-    place-items: center;
-    margin: 1.5rem;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .box{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    width: 28vw;
+    margin-bottom: 2rem;
 }
 
 .perguntas{
-    width: 28vw;
-    text-align: left;
     font-size: 1.6rem;
 }
 
 .input{
     border: 2px solid #55CDFC;
-    width: 28vw;
-    height: 45%;
+    width: 100%;
     border-radius: 4px;
     padding: 10px;
 }
@@ -121,20 +117,25 @@ body{
 }
 
 .escolherVaga{
-    width: 25%;
+    width: 18rem;
+    padding: 0.3rem;
     border-radius: 0.4rem;
     border: 2px solid #55CDFC;
 }
 
+.btn-cadastro{
+    width: 28vw;
+    margin-bottom: 3rem;
+    text-align: end;
+}
+
 .botaoCadastro{
-    border: 2px solid #F7A8B8;
+    border: none;
     background-color: #F7A8B8;
     color: white;
-    padding: 0.4rem 1.0rem;
     border-radius: 0.3rem;
     cursor: pointer;
-    width: 28vw;
-    text-align: left;
+    width: 24rem;
     height: 6.0rem; 
     text-align: center;
     font-size: 2.0rem;
